@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Produtos e Soluções on Unicorn Ranch</title>
+    <link>/produtos/</link>
+    <description>Recent content in Produtos e Soluções on Unicorn Ranch</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 26 Nov 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/produtos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Direct Connect</title>
+      <link>/produtos/direct_connect/</link>
+      <pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/produtos/direct_connect/</guid>
+      <description> Sobre  Compatível com todos os serviços AWS que acessam a internet. Reduz custos de transferência out-bound com o ambiente de cloud, custos de in-bound se mantém gratuitos. Página principal do produto: https://aws.amazon.com/directconnect/  Casos de uso  Quantidades massivas de dados, quando é necessário mover grandes quantidades de dados sistematicamente. Workloads de vídeo, voz streamming, entre outros. Ambientes híbridos, quando é necessário interligar ambientes off-prem com a cloud.  Preço  Preço é composto por 2 componentes:  porta de acesso (1G ou 10G ) custo do tráfego out-bound   Vídeos  (NET301) Extending Data Centers to the Cloud: Connectivity Options and Co  Documentos  (NET201) VPC Fundamentals and Connectivity Options (NET406) Deep Dive: AWS Direct Connect and VPNs  </description>
+    </item>
+    
+  </channel>
+</rss>
