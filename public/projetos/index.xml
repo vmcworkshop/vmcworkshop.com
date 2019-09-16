@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projetos on Unicorn Ranch</title>
+    <link>/projetos/</link>
+    <description>Recent content in Projetos on Unicorn Ranch</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 17 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/projetos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dispenser Cápsulas</title>
+      <link>/projetos/dispenser/</link>
+      <pubDate>Mon, 17 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/projetos/dispenser/</guid>
+      <description> Dispenser Cápsulas Protótipo de um dispenser de capsutlas
+Sobre Página principal do produto:
+Arquitetura Códigos Modelo impressora 3D  Modelo 3d  Documentos </description>
+    </item>
+    
+  </channel>
+</rss>
