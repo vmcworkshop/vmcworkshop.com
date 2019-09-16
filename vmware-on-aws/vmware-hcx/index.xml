@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VMware HCX on VMC Workshop</title>
+    <link>/vmware-on-aws/vmware-hcx/</link>
+    <description>Recent content in VMware HCX on VMC Workshop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 27 Aug 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/vmware-on-aws/vmware-hcx/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Requirements</title>
+      <link>/vmware-on-aws-/vmware-hcx/02-prereq/</link>
+      <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/vmware-on-aws-/vmware-hcx/02-prereq/</guid>
+      <description>On premises environment  Hardware  at least one servers with 8 Cores and 64 GB RAM  Software
+ VMware VCenter 6.5 + ESXi + VMware HCX ( NSX is not required for this lab )   On VMware Cloud on AWS  The stack created is enough, just need to deploy the HCX on portal and open the firewall ports to access the vCenter and HCX, I&amp;rsquo;ll explain it in the next chapter  (fast draft of requirements)</description>
+    </item>
+    
+    <item>
+      <title>Deploying HCX on VMC at AWS</title>
+      <link>/vmware-on-aws-/vmware-hcx/03-deploy-on-vmc/</link>
+      <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/vmware-on-aws-/vmware-hcx/03-deploy-on-vmc/</guid>
+      <description> Deploying HCX on VMC at AWS  Enter into VMC Console
+ Found the tools tab.  Click in to deploy HCX.  After some minutes, your HCX is ready.  Open HCX.  Enter the same credentials provided for vCenter.   </description>
+    </item>
+    
+    <item>
+      <title>Deploying HCX on-premises</title>
+      <link>/vmware-on-aws-/vmware-hcx/04-deploy-on-prem/</link>
+      <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/vmware-on-aws-/vmware-hcx/04-deploy-on-prem/</guid>
+      <description>Create the Activation Key for HCX  Enter into VMC Console
+ Open HCX Console.  Open HCX.  Enter the same credentials provided for vCenter.  Click on Activation Keys Tab  Click on Create Activation button.  Confirm the creation of the key.  Found the new activation key, this is the key you&amp;rsquo;ll use to activate your HCX on-prem.   Download the HCX appliance  Enter into VMC Console</description>
+    </item>
+    
+    <item>
+      <title>Site pairing</title>
+      <link>/vmware-on-aws-/vmware-hcx/05-site-pairing/</link>
+      <pubDate>Sat, 31 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/vmware-on-aws-/vmware-hcx/05-site-pairing/</guid>
+      <description> Open the HCX Console on-premises
+ Login into HCX Console.  Click on Connect to Remote Site.  Add HCX endpoint, user and password and click on Connect.  Check the status on site pairing.   </description>
+    </item>
+    
+    <item>
+      <title>Network Profile</title>
+      <link>/vmware-on-aws-/vmware-hcx/06-network-profile/</link>
+      <pubDate>Sat, 31 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/vmware-on-aws-/vmware-hcx/06-network-profile/</guid>
+      <description> Open the HCX Console on-premises
+ Login into HCX Console.  Click on CREATE NETWORK PROFILE.  Create network profile:
+ Set vCenter IP/Hostname; Select the network; Set IP Range (CIDR), gateway and DNS; Click on create.    </description>
+    </item>
+    
+    <item>
+      <title>Compute Profile</title>
+      <link>/vmware-on-aws-/vmware-hcx/07-compute-profile/</link>
+      <pubDate>Sat, 31 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/vmware-on-aws-/vmware-hcx/07-compute-profile/</guid>
+      <description>Open the HCX Console on-premises
+ Login into HCX Console.  Click on CREATE COMPUTE PROFILE.  Set computer profile name.  Select services.  Select resources and datastore to be used by profile.  Select management network profile.  Select Uplink.  Select VMotion Network.  Select Replication Network.  Select Distributed Switch to be used by network extension.  Review.  Finish the creation of compute profile.  Check the status of compute profile.</description>
+    </item>
+    
+    <item>
+      <title>Service Mesh</title>
+      <link>/vmware-on-aws-/vmware-hcx/08-service-mesh/</link>
+      <pubDate>Sat, 31 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/vmware-on-aws-/vmware-hcx/08-service-mesh/</guid>
+      <description>Open the HCX Console on-premises
+ Login into HCX Console.  Click on CREATE SERVICE MESH.  Select sites.  Select compute profile.  Select services to be enabled.  Click on continue.  Click on continue.  Select bandwidth limit.  Review the service mesh configuration.  Select name for service mesh.  Check the deploy of service mesh at console.  Check the service mesh status at console.</description>
+    </item>
+    
+    <item>
+      <title>Extending Networking</title>
+      <link>/vmware-on-aws-/vmware-hcx/29-ext-net/</link>
+      <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/vmware-on-aws-/vmware-hcx/29-ext-net/</guid>
+      <description> Open the HCX Console on-premises
+ Login into HCX Console.  Click on Network Extension  Extending:
+ Select the DSwitch vlan do you want extend Set the default gateway from this subnet Click into Extend button   Confirm the extend is correct.   </description>
+    </item>
+    
+    <item>
+      <title>Bulk Migration</title>
+      <link>/vmware-on-aws-/vmware-hcx/30-bulk-migration/</link>
+      <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/vmware-on-aws-/vmware-hcx/30-bulk-migration/</guid>
+      <description> Open the HCX Console on-premises
+ Login into HCX Console.  Click on Migration tab.  At the HXC: Migrate Virtual Machines:
+ select the VM Name to migration select storage at VMC on AWS select the type of migration select the network at VMC on AWS click in Finish button   Check the status at migration console.   </description>
+    </item>
+    
+  </channel>
+</rss>

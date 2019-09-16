@@ -1,0 +1,120 @@
+[
+{
+	"uri": "/vmware-on-aws/vmware-sddc/",
+	"title": "VMware SDDC",
+	"tags": [],
+	"description": "",
+	"content": "VMware SDDC Workshop  This is a tutorial to how deploy and configure VMWare HCX on-premises and how pairing with VMC on AWS to extend networking, migrate VMs in bulk or VMotion mode.  "
+},
+{
+	"uri": "/vmware-on-aws/",
+	"title": "VMware on AWS",
+	"tags": [],
+	"description": "",
+	"content": "VMware Cloud on AWS  This site is a repository of tutorials to use VMWare products over AWS.  "
+},
+{
+	"uri": "/",
+	"title": "Unicorn Ranch",
+	"tags": [],
+	"description": "",
+	"content": "Unicorn Ranch Project Essa página é uma inicativa de auxiliar parceiros e clientes na utilização das soluções AWS.\n"
+},
+{
+	"uri": "/vmware-on-aws-/vmware-hcx/02-prereq/",
+	"title": "Requirements",
+	"tags": [],
+	"description": "",
+	"content": " On premises environment  Hardware  at least one servers with 8 Cores and 64 GB RAM  Software\n VMware VCenter 6.5 + ESXi + VMware HCX ( NSX is not required for this lab )   On VMware Cloud on AWS  The stack created is enough, just need to deploy the HCX on portal and open the firewall ports to access the vCenter and HCX, I\u0026rsquo;ll explain it in the next chapter  (fast draft of requirements)\n"
+},
+{
+	"uri": "/vmware-on-aws-/vmware-sddc/02-prereq/",
+	"title": "Requirements",
+	"tags": [],
+	"description": "",
+	"content": " On premises environment  Hardware  at least one servers with 8 Cores and 64 GB RAM  Software\n VMware VCenter 6.5 + ESXi + VMware HCX ( NSX is not required for this lab )   On VMware Cloud on AWS  The stack created is enough, just need to deploy the HCX on portal and open the firewall ports to access the vCenter and HCX, I\u0026rsquo;ll explain it in the next chapter  (fast draft of requirements)\n"
+},
+{
+	"uri": "/vmware-on-aws/vmware-hcx/",
+	"title": "VMware HCX",
+	"tags": [],
+	"description": "",
+	"content": "VMware SDDC Workshop  This is a tutorial to how deploy and configure VMWare SDDC on AWS  "
+},
+{
+	"uri": "/vmware-on-aws-/vmware-sddc/03-creating-sddc/",
+	"title": "Creating a SDDC",
+	"tags": [],
+	"description": "",
+	"content": " Click on CREATE SDDC.  Set properties:\n Set AWS Region, Set Deployment size, Set SDDC.   Connect to AWS:\n Set AWS Account   VPC and subnet:\n Select VPC; Select subnet.   Set management subnet.  Check acknowledge cost.  Check status on SDDC Console.   "
+},
+{
+	"uri": "/vmware-on-aws-/vmware-hcx/03-deploy-on-vmc/",
+	"title": "Deploying HCX on VMC at AWS",
+	"tags": [],
+	"description": "",
+	"content": " Deploying HCX on VMC at AWS  Enter into VMC Console\n Found the tools tab.  Click in to deploy HCX.  After some minutes, your HCX is ready.  Open HCX.  Enter the same credentials provided for vCenter.   "
+},
+{
+	"uri": "/vmware-on-aws-/vmware-hcx/04-deploy-on-prem/",
+	"title": "Deploying HCX on-premises",
+	"tags": [],
+	"description": "",
+	"content": " Create the Activation Key for HCX  Enter into VMC Console\n Open HCX Console.  Open HCX.  Enter the same credentials provided for vCenter.  Click on Activation Keys Tab  Click on Create Activation button.  Confirm the creation of the key.  Found the new activation key, this is the key you\u0026rsquo;ll use to activate your HCX on-prem.   Download the HCX appliance  Enter into VMC Console\n Open HCX Console.  Open HCX.  Enter the same credentials provided for vCenter.  Click on System Updates tab  Click on Request Download Link  Click on VMware HCX button to download de OVA  Deploy the HCX using OVA menu at vSphere Client as usual.\n  "
+},
+{
+	"uri": "/vmware-on-aws-/vmware-hcx/05-site-pairing/",
+	"title": "Site pairing",
+	"tags": [],
+	"description": "",
+	"content": " Open the HCX Console on-premises\n Login into HCX Console.  Click on Connect to Remote Site.  Add HCX endpoint, user and password and click on Connect.  Check the status on site pairing.   "
+},
+{
+	"uri": "/vmware-on-aws-/vmware-hcx/06-network-profile/",
+	"title": "Network Profile",
+	"tags": [],
+	"description": "",
+	"content": " Open the HCX Console on-premises\n Login into HCX Console.  Click on CREATE NETWORK PROFILE.  Create network profile:\n Set vCenter IP/Hostname; Select the network; Set IP Range (CIDR), gateway and DNS; Click on create.    "
+},
+{
+	"uri": "/vmware-on-aws-/vmware-hcx/07-compute-profile/",
+	"title": "Compute Profile",
+	"tags": [],
+	"description": "",
+	"content": " Open the HCX Console on-premises\n Login into HCX Console.  Click on CREATE COMPUTE PROFILE.  Set computer profile name.  Select services.  Select resources and datastore to be used by profile.  Select management network profile.  Select Uplink.  Select VMotion Network.  Select Replication Network.  Select Distributed Switch to be used by network extension.  Review.  Finish the creation of compute profile.  Check the status of compute profile.   "
+},
+{
+	"uri": "/vmware-on-aws-/vmware-hcx/08-service-mesh/",
+	"title": "Service Mesh",
+	"tags": [],
+	"description": "",
+	"content": " Open the HCX Console on-premises\n Login into HCX Console.  Click on CREATE SERVICE MESH.  Select sites.  Select compute profile.  Select services to be enabled.  Click on continue.  Click on continue.  Select bandwidth limit.  Review the service mesh configuration.  Select name for service mesh.  Check the deploy of service mesh at console.  Check the service mesh status at console.   "
+},
+{
+	"uri": "/vmware-on-aws-/vmware-hcx/29-ext-net/",
+	"title": "Extending Networking",
+	"tags": [],
+	"description": "",
+	"content": " Open the HCX Console on-premises\n Login into HCX Console.  Click on Network Extension  Extending:\n Select the DSwitch vlan do you want extend Set the default gateway from this subnet Click into Extend button   Confirm the extend is correct.   "
+},
+{
+	"uri": "/vmware-on-aws-/vmware-hcx/30-bulk-migration/",
+	"title": "Bulk Migration",
+	"tags": [],
+	"description": "",
+	"content": " Open the HCX Console on-premises\n Login into HCX Console.  Click on Migration tab.  At the HXC: Migrate Virtual Machines:\n select the VM Name to migration select storage at VMC on AWS select the type of migration select the network at VMC on AWS click in Finish button   Check the status at migration console.   "
+},
+{
+	"uri": "/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]

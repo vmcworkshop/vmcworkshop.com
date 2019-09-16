@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/vmware-on-aws/vmware-sddc/</loc>
+    <lastmod>2019-08-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/vmware-on-aws/</loc>
+    <lastmod>2019-08-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2019-08-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/vmware-on-aws-/vmware-hcx/02-prereq/</loc>
+    <lastmod>2019-08-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/vmware-on-aws-/vmware-sddc/02-prereq/</loc>
+    <lastmod>2019-08-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/vmware-on-aws/vmware-hcx/</loc>
+    <lastmod>2019-08-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/vmware-on-aws-/vmware-sddc/03-creating-sddc/</loc>
+    <lastmod>2019-08-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/vmware-on-aws-/vmware-hcx/03-deploy-on-vmc/</loc>
+    <lastmod>2019-08-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/vmware-on-aws-/vmware-hcx/04-deploy-on-prem/</loc>
+    <lastmod>2019-08-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/vmware-on-aws-/vmware-hcx/05-site-pairing/</loc>
+    <lastmod>2019-08-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/vmware-on-aws-/vmware-hcx/06-network-profile/</loc>
+    <lastmod>2019-08-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/vmware-on-aws-/vmware-hcx/07-compute-profile/</loc>
+    <lastmod>2019-08-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/vmware-on-aws-/vmware-hcx/08-service-mesh/</loc>
+    <lastmod>2019-08-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/vmware-on-aws-/vmware-hcx/29-ext-net/</loc>
+    <lastmod>2019-08-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/vmware-on-aws-/vmware-hcx/30-bulk-migration/</loc>
+    <lastmod>2019-08-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

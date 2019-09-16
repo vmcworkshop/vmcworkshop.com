@@ -1,7 +1,0 @@
-npm-debug.log
-node_modules
-terraform/.terraform
-terraform.tfstate
-terraform.tfstate.backup
-.DS_Store
-*.swp

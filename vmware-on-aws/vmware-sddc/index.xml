@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VMware SDDC on VMC Workshop</title>
+    <link>/vmware-on-aws/vmware-sddc/</link>
+    <description>Recent content in VMware SDDC on VMC Workshop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 27 Aug 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/vmware-on-aws/vmware-sddc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Requirements</title>
+      <link>/vmware-on-aws-/vmware-sddc/02-prereq/</link>
+      <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/vmware-on-aws-/vmware-sddc/02-prereq/</guid>
+      <description>On premises environment  Hardware  at least one servers with 8 Cores and 64 GB RAM  Software
+ VMware VCenter 6.5 + ESXi + VMware HCX ( NSX is not required for this lab )   On VMware Cloud on AWS  The stack created is enough, just need to deploy the HCX on portal and open the firewall ports to access the vCenter and HCX, I&amp;rsquo;ll explain it in the next chapter  (fast draft of requirements)</description>
+    </item>
+    
+    <item>
+      <title>Creating a SDDC</title>
+      <link>/vmware-on-aws-/vmware-sddc/03-creating-sddc/</link>
+      <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/vmware-on-aws-/vmware-sddc/03-creating-sddc/</guid>
+      <description> Click on CREATE SDDC.  Set properties:
+ Set AWS Region, Set Deployment size, Set SDDC.   Connect to AWS:
+ Set AWS Account   VPC and subnet:
+ Select VPC; Select subnet.   Set management subnet.  Check acknowledge cost.  Check status on SDDC Console.   </description>
+    </item>
+    
+  </channel>
+</rss>
