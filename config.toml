@@ -52,7 +52,7 @@ weight = 30
 
 [[menu.shortcuts]]
 name = "<i class='fas fa-envelope'></i> Have questions?"
-url = "mailto:unicornranch@amazon.com"
+url = "mailto:vmcworkshop@amazon.com"
 weight = 40
 
 

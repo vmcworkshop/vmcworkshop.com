@@ -1,8 +1,8 @@
-# Unicorn Rach
+# VMC Workshop
 
 ### Build Status:
 
-[![Build Status](https://travis-ci.org/UnicornRanch/unicornranch.svg?branch=master)](https://travis-ci.org/UnicornRanch/unicornranch)
+[![Build Status](https://travis-ci.org/vmcworkshop/vmcworkshop.svg?branch=master)](https://travis-ci.org/vmcworkshop/vmcworkshop)
 
 ### Setup:
 
