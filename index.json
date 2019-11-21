@@ -4,7 +4,7 @@
 	"title": "VMware SDDC",
 	"tags": [],
 	"description": "",
-	"content": "VMware SDDC Workshop  This is a tutorial to how deploy and configure VMWare HCX on-premises and how pairing with VMC on AWS to extend networking, migrate VMs in bulk or VMotion mode.  "
+	"content": "VMware SDDC Workshop   This is a tutorial to how deploy and configure VMWare HCX on-premises and how pairing with VMC on AWS to extend networking, migrate VMs in bulk or VMotion mode.  "
 },
 {
 	"uri": "/vmware-on-aws/",
@@ -18,7 +18,7 @@
 	"title": "VMC Workshop",
 	"tags": [],
 	"description": "",
-	"content": "VMC WorkShop Comming Soon\n"
+	"content": " VMC WorkShop  Access here:  How create an SDDC on AWS How create HCX on SDDC  "
 },
 {
 	"uri": "/vmware-on-aws-/vmware-hcx/02-prereq/",
